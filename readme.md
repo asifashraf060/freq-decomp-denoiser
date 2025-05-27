@@ -42,9 +42,9 @@ This script was developed and tested on Python 3.8+. You’ll need:
 - [TensorFlow 2.x](https://www.tensorflow.org/)  
 
 You can install them via pip:
-
 ```bash
 pip install numpy scipy matplotlib pyemd tensorflow
+```
 
 ## Installation
 
@@ -60,7 +60,6 @@ At the top of seismogram_random.py, you can adjust:
 | ------------ | ---------------------------------------------------------- | ---------------------------------------------------------------------- |
 | `N_total`    | Total number of synthetic examples to generate             | `100`                                                                  |
 | `N_train`    | Number of examples used for training (rest for validation) | `80`                                                                   |
-| `out_dir`    | Directory for saving any figures or model checkpoints      | `'/Users/asifashraf/Documents/Manuscripts/Seismogram_machineLearning'` |
 | `dt`         | Sampling interval (s)                                      | `0.005`                                                                |
 | `start_time` | Start time of synthetic record (s)                         | `0`                                                                    |
 | `end_time`   | End time of synthetic record (s)                           | `50`                                                                   |
